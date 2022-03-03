@@ -1,0 +1,14 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage {
+  width: 90vw;
+  height: 80vh;
+  border: 1px solid black
+}

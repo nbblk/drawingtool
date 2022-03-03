@@ -1,0 +1,19 @@
+.menu {
+    margin: 10px;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 360px) {
+    .menu {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+}

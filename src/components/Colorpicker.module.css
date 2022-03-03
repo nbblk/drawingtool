@@ -1,0 +1,13 @@
+.colorpicker {
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+}
+
+.currentColor {
+  width: 45px;
+  height: 20px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 2px;
+}
